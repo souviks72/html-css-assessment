@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.nav h3{
+    color: gray;
+    font-weight: 500;
+    font-size: 25px;
+    
+}
+
+.left{
+    transform: translateY(10%);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    margin: 5px;
+    padding: 5px;
+    color: #007bff;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    width: 110%;
+}
+
+.jumbotron{
+    background-color: rgba(169, 169, 180,0.4);
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.j-wrapper{
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.h1 h1{
+    font-weight: 500;
+}
+
+.jumbotron-p p{
+    padding: 10px;
+    text-align: center;
+    font-weight: 20px;
+}
+
+.btn-1{
+    width: 30%;
+    padding: 5px;
+    margin: 5px auto;
+    
+}
+
+.btn-1 button{
+    width: 50%;
+    background-color: #28a745;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.btn-2{
+    width: 50%;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.btn-2 button{
+    width: 50%;
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.lhs{
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.bottom{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bottom p{
+    text-align: left;
+}
+
+.bottom p span{
+    color: #007bff;
+}
